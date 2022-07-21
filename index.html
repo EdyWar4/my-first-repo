@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,13 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Site Web Dev</title>
+    <title>Site Edy War</title>
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
     <header>
-      <h1 class="center">Edgar Guerra <span> Frontend Dev</span></h1>
+      <h1 class="center">Edgar Guerra <span>Frontend Dev</span></h1>
     </header>
     <div class="nav-bg">
       <nav class="main-nav container">
@@ -28,9 +28,7 @@
     </div>
     <section class="hero">
       <div class="hero-subtitle">
-        <h2 class="move-front size" id="s" style="font-size: 100px">
-          Diseño y Desarrollo Web Frontend
-        </h2>
+        <h2 class="move-front size">Diseño y Desarrollo Web Frontend</h2>
         <svg
           class="move-front"
           xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +53,7 @@
           <line x1="10" y1="14" x2="14" y2="14" />
         </svg>
       </div>
-      <p class="move-front">Ciudad del Carmen, Campeche, México</p>
+      <p class="move-front">San juan de Lurigancho, Lima, Perú</p>
       <a href="#" class="move-front btn">Contactar</a>
     </section>
     <div class="container shadow">
@@ -165,33 +163,36 @@
           </div>
         </section>
       </main>
-      <section>
+      <section class="form-container">
         <h2>Contacto</h2>
         <form>
           <fieldset>
-            <legend>Contactame llenando todos los datos del formulario</legend>
-            <div>
-              <label>Nombre</label>
-              <input type="text" placeholder="Tu Nombre" />
+            <legend>Formulario de contacto</legend>
+            <div class="form-section1">
+              <div class="input-group half-width">
+                <label>Nombre</label>
+                <input type="text" placeholder="Tu Nombre" />
+              </div>
+              <div class="input-group half-width">
+                <label>Teléfono</label>
+                <input type="text" placeholder="Tu Teléfono" />
+              </div>
             </div>
-            <div>
-              <label>Teleéfono</label>
-              <input type="text" placeholder="Tu Teléfono" />
-            </div>
-            <div>
+            <div class="input-group">
               <label>Correo</label>
               <input type="email" placeholder="Tu email" />
             </div>
-            <div>
+            <div class="input-group">
               <label>Mensaje</label>
-              <textarea cols="50" rows="5">klhdfaksdfhask</textarea>
+              <textarea rows="5"></textarea>
             </div>
-            <input type="submit" value="Enviar" />
-            <button>Enviar</button>
+            <div class="btn-area">
+              <input type="submit" value="Enviar" class="btn send-btn" />
+            </div>
           </fieldset>
         </form>
       </section>
     </div>
-    <footer><p>Todos los derechos reservados &copy; Edy War 2022</p></footer>
+    <footer><p>Todos los derechos reservados &copy; Edgar Guerra 2022</p></footer>
   </body>
 </html>
